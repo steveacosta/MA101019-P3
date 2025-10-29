@@ -45,8 +45,12 @@ Reinicia Metro cuando edites el .env.
 npm install
 npm start
 ```
-- Android: presiona "a" en la consola de Expo
-- iOS (macOS): presiona "i"
+- Descargar Expo Go en el dispositivo movil a usar
+- Escanear codigo QR
+- En caso de tener un error al escanear el QR, usar:
+```
+npx expo start --tunnel
+```
 
 ## 🔁 Flujo de autenticación
 1) Registro/Login con Firebase Auth (email+password)
